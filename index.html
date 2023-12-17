@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Taskia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Paytone+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+       
+        .custom-navbar{
+            height: 150px;
+            width: 100%;
+            padding-top: 30px; 
+            
+        }
+
+
+        .navbar-brand{
+          font-size: xx-large;
+          font-weight: 1000;
+          color: #525ffb;
+        }
+
+        .custom-button{
+          border-radius: 24px;
+          width: 100px;
+          color: #525ffb;
+          border-color: #525ffb;
+          border-width: 2px;
+          
+        }
+
+        .custom-button:hover{
+          background-color: #5c67e8;
+        }
+
+        .column-1{
+          
+          height: auto;
+          text-align: left;
+          display: flex;
+          
+          justify-content: center;
+          flex-direction: column;
+        }
+
+        .column-2{
+          
+          text-align: left;
+          height: auto;
+        }
+
+        .text-1{
+          
+          font-family: 'Paytone One', sans-serif;
+          font-size: 4vw !important;
+        }
+
+        .pt-1{
+          padding-top: 120px !important;
+        }
+
+        .pb-5{
+          padding-bottom: 200px !important;
+        }
+        .px-5{
+          padding-left: 20vw !important;
+          padding-right: 20vw !important;
+        }
+      
+        .custom-form{
+          border-radius: 30px;
+          height: 60px;
+          width: 100%;
+ 
+        }
+
+        .custom-button-2{
+          display: block;
+          border-radius: 30px;
+          color: white;
+          height: 60px;
+          background-color: #525ffb;
+          margin-left: 2vw;
+          width: 60%;
+          font-size: larger;
+          font-weight: 600;
+        }
+        
+        .custom-card{
+          width: 100% !important;
+          text-align: center;
+          padding-bottom: 30px;
+        }
+
+        .row{
+          --bs-gutter-x:var(--bs-gutter-x)0;
+        }
+
+        .card{
+          --bs-card-spacer-y:var(--bs-card-spacer-y) 0;
+        }
+        .card-1-color{
+          background-color: #525FFB;
+          
+        }
+        .card-2{
+          padding-top: 100px;
+          
+        }
+
+        .card-3{
+          padding-top: 50px;
+          
+        }
+
+        .card-2-color{
+          background-color: #E9F0FF;
+        }
+
+        .card-3-color{
+          background-color: #FFE7AA;
+        }
+
+        .column-3{
+          height: auto;
+        }
+
+      
+        .heading{
+          font-weight: 300px;
+          font-family: 'Paytone One', sans-serif;
+          
+        }
+
+        .custom-button-3{
+          display: block;
+          border-radius: 30px;
+          color: white;
+          height: 60px;
+          background-color: #525FFB;
+              
+          width: 40%;
+          font-size: larger;
+          font-weight: 600;
+        }
+
+        .column-5{
+          text-align: left;
+        }
+
+        .custom-num{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: 900;
+          color: #525FFB;
+          
+        }
+        .fs-2{
+          font-size: 8vw !important;
+        
+        }
+
+        .custom-image{
+          height: auto;
+          width: 100%;
+          
+        }
+
+        .custom-image-2{
+          height: auto;
+          width: 100%;
+          
+
+        }
+        .custom-footer{
+          height: auto;
+          display: flex;
+          text-align: center;
+          
+          flex-direction: column;
+
+        }
+
+        .custom-form-last{
+          border-radius: 30px;
+          height: 60px;
+          width: 100%;
+          
+        }
+
+
+    </style>
+</head>
+  <body>
+    
+    <section class="container">
+        <div class="custom-navbar">
+            <nav class="navbar bg-white">
+                <div class="container-fluid">
+                  <a class="navbar-brand custom-brand">Taskia</a>
+                  <form class="d-flex" role="search">
+                    <button class="btn  custom-button" type="submit">Try free</button>
+                  </form>
+                </div>
+              </nav>
+        </div>
+    </section>
+
+    <div class="container pb-5">
+      <div class="row">
+        <div class="col-md-6 column-1">
+          <p class=" fs-1 text-1 ">Task management and lists Tool</p>
+          <p class="text-start text-body-tertiary" style="padding-right: 35%; font-weight: 700;">We believe that designing products and services in close partnership with our clients is the only way 
+            to have a real impact on their business.
+           </p>
+           <div class="row">
+            <div class="col pt-5 ">
+              <input  type="email" class="form-control custom-form" id="floatingInput" placeholder="name@company.com">              
+            </div>
+            <div class="col pt-5">
+              <form role="search">
+                <button class="btn form-control  custom-button-2" type="submit">Try it free</button>
+              </form>
+            </div>
+           </div>
+          
+        </div>
+        <div class="col-md-6 column-2">
+          <img src="Images/hero image.jpg" class="img-fluid" alt="...">
+        </div>
+      </div>
+  
+    </div>
+
+    <section class="container pb-5">
+      <div class="row">
+        <h1 style="padding-bottom: 80px; font-weight: 700;" class="text-center">Featured Service that We Provide</h1>
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="row" style="height: auto;">
+            <div class="col-md px-4">
+
+              <div class="card custom-card card-1-color">
+                <img src="/Images/Image 3.png" class="card-img-top " alt="..." style="padding-top: 50px;">
+                <div class="card-body">
+                  <h3 class="card-title" style="font-weight: 800; color: white;">Keep tasks in one place</h3>
+                  <p class="card-text" style="color: white;">Save time, avoid losing work and
+                    information, delegate, and track tasks to
+                    stay on schedule
+                  </p>
+                
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md px-4 card-2">
+
+              <div class="card custom-card card-2-color">
+                <img src="/Images/Image 2.png" class="card-img-top " alt="..." style="padding-top: 50px;">
+                <div class="card-body">
+                  <h3 class="card-title" style="font-weight: 800;">Keep tasks in one place</h3>
+                  <p class="card-text">Save time, avoid losing work and
+                    information, delegate, and track tasks to
+                    stay on schedule
+                  </p>
+                
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md px-4 card-3">
+
+              <div class="card custom-card card-3-color">
+                <img src="/Images/Image 1.png" class="card-img-top " alt="..." style="padding-top: 50px;">
+                <div class="card-body">
+                  <h3 class="card-title" style="font-weight: 800;">Keep tasks in one place</h3>
+                  <p class="card-text">Save time, avoid losing work and
+                    information, delegate, and track tasks to
+                    stay on schedule
+                  </p>
+                
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </section>
+    
+    <section class="container pb-5">
+      <div class="row">
+        <div class="col-md-6 column-3 px-4">
+          <img src="Images/Image 8.jpg" class="img-fluid" alt="...">
+        </div>
+        <div class="col-md-6 column-4 px-4">
+          <h2 class="fs-1 " style="font-weight: 700;">Why do you need task management</h2>
+          <p class="text-body-tertiary py-4" style="padding-right: 15%; font-weight: 700;">Do you waste time organizing sticky notes, searching your email
+            and apps for to-dos, and figuring out what to work on fire?
+            Then you need one solution to prioritize your tasks, manage
+            your time, and meet your deadlines.
+          </p>
+        <form role="search">
+          <button class="btn form-control  custom-button-3" type="submit">Learn more</button>
+        </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="container pb-5">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-5 column-5 px-4">
+          <p class="fs-1 heading">Seamless Team Workflow & Efficient</p>
+          <p class="text-body-tertiary py-4" style=" font-weight: 700;">Do you waste time organizing sticky notes, searching your email
+            and apps for to-dos, and figuring out what to work on fire?
+            Then you need one solution to prioritize your tasks, manage
+            your time, and meet your deadlines.
+          </p>
+          <a href=""><i class="fa-brands fa-apple fa-2xl mx-2 pb-4" style="color: #000000; font-size: 50px !important;"></i></a>
+          <a href=""><img src="Images/Image 9.jpg" class="img-fluid mx-2 " alt="..." style="height: 60px;"></a>
+        </div> 
+        <div class="col-md-5 px-4">
+          <img src="Images/Image 7.jpg" class="img-fluid" alt="...">
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="row main">
+        <p class="fs-1 heading" style="text-align: center;">Trust us and feel free to try our service</p>
+        <div class="col-md-3 custom-img-1" style="padding-bottom: 10vw;">
+          <img src="Images/Image 4.jpg" class="custom-image" alt="...">
+        </div>
+        <div class="col-md-6 custom-num ">
+          <p class="fs-2" >100 000</p>
+        </div>
+        <div class="col-md-3 custom-img-2" style="padding-top: 10vw;"> 
+          <img src="Images/Image 5.jpg" class="custom-image-2" alt="...">
+        </div>
+      </div>  
+    </section>
+
+    <hr>
+
+    <section class="container pt-1 pb-5">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 custom-footer">
+          <p class="fs-1 heading ">Get better work Done</p>
+          <p class="fs-5 " style="text-align: center; padding-left: 150px; padding-right: 150px;">See why millions of people across 195
+            countries use Dash.
+          </p>
+          
+          <div class="row">
+            <div class="col pt-5" style="padding-left: 5vw;">
+              <input type="email" class="form-control custom-form-last" id="floatingInput" placeholder="name@company.com">              
+            </div>
+            <div class="col pt-5">
+              <form role="search">
+                <button class="btn form-control  custom-button-2" type="submit">Try it free</button>
+              </form>
+            </div>
+           </div>
+          
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </section>
+
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+<!--
+ 
+-->
